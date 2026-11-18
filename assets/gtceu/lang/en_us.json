@@ -1,0 +1,13 @@
+{
+  "block.gtceu.iron_ore": "Iron Ore",
+  "block.gtceu.lp_steam_solid_boiler": "Low Pressure Steam Solid Boiler",
+  "block.gtceu.lv_macerator": "Basic Macerator",
+  "block.gtceu.lv_steam_turbine": "Basic Steam Turbine Generator",
+  "gtceu.machine.no_recipe": "%s has no macerator recipe in this slice.",
+  "gtceu.machine.not_a_machine": "No GregTech machine at %s,%s,%s.",
+  "gtceu.machine.usage": "Usage: /gtceu status|take|fill <x> <y> <z> [mb]",
+  "gtceu.status.boiler": "burn %s/%s ticks, temperature %s/%s, water %s/%s mB, steam %s/%s mB, dry %s",
+  "gtceu.status.macerator": "EU %s/%s, progress %s/%s, input %s, output %s",
+  "gtceu.status.turbine": "steam %s/%s mB, EU %s/%s, progress %s/%s, distilled water %s/%s mB",
+  "item.gtceu.crushed_iron_ore": "Crushed Iron Ore"
+}

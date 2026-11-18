@@ -1,0 +1,86 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#bottom"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#side"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#side"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#side"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#top"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "cullface": "east",
+          "texture": "#east",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#west",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "to": [
+        15.99,
+        15.99,
+        15.99
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "gtceu:block/casings/voltage/lv/bottom",
+    "east": "gtceu:block/generators/steam_turbine/overlay_side_active",
+    "particle": "gtceu:block/casings/voltage/lv/side",
+    "side": "gtceu:block/casings/voltage/lv/side",
+    "top": "gtceu:block/casings/voltage/lv/top",
+    "west": "gtceu:block/generators/steam_turbine/overlay_side_active"
+  }
+}

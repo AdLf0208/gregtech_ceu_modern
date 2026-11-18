@@ -1,0 +1,28 @@
+id = "gtceu"
+name = "GregTech CEu Modern"
+version = "0.2.0"
+description = """A port of GregTech CEu Modern for Horizon: its opening power chain — a low
+pressure steam solid boiler, an LV steam turbine and an LV macerator — with the mod's own
+numbers (12 mB of steam at 100 °C from 640 mB of water a step, 640 mB of steam into 320 EU,
+one iron ore into two crushed iron ore for 800 EU), its steam/water tanks and EU buffers,
+its dry-boil explosion rule, and the iron ore the chain works on. The rest of the mod —
+the multiblocks, cables and pipes, the material system, worldgen and the other 1,555
+blockstates — is not ported yet; notes.md carries the gap list."""
+authors = ["KilaBash", "screret", "Mikerooni", "serenibyss", "Tech22", "YoungOnion", "Ghostipedia", "AdLf0208"]
+license = "LGPL-3.0"
+homepage = "https://github.com/GregTechCEu/GregTech-Modern"
+# A native mod: Rust in src/, compiled by the launcher against the game build [native] pins,
+# beside data/ and assets/. The id is the resource namespace and the only identity: Cargo's
+# package name and version are not the mod's.
+api = "0.2"
+# "both" is the installation side, not the hook's: an integrated server belongs to the client
+# installation, so a LAN host or a single-player world needs both. A dedicated server is "server".
+side = "both"
+# The one shared value every manifest carries ("May add blocks, items, mob effects and entity
+# types"); the three machines and the ore are declared in data/.
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "0b14f8acfd97fa2c750e42795249dcc981178ca4"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"

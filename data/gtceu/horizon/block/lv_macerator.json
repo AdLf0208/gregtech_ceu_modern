@@ -1,0 +1,32 @@
+{
+  "default_state": {
+    "facing": "north",
+    "recipe_logic_status": "idle"
+  },
+  "item": true,
+  "properties": {
+    "explosion_resistance": 6.0,
+    "hardness": 3.0,
+    "requires_tool": true,
+    "sounds": "minecraft:iron_block"
+  },
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ]
+    },
+    "recipe_logic_status": {
+      "type": "enum",
+      "values": [
+        "idle",
+        "working"
+      ]
+    }
+  },
+  "template": "minecraft:stone"
+}

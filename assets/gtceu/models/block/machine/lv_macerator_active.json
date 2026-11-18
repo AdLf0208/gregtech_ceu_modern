@@ -1,0 +1,100 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#bottom"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#side"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#side"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#side"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#top"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#north",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "to": [
+        15.99,
+        15.99,
+        15.99
+      ]
+    },
+    {
+      "faces": {
+        "up": {
+          "cullface": "up",
+          "texture": "#up",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "to": [
+        15.98,
+        15.98,
+        15.98
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "gtceu:block/casings/voltage/lv/bottom",
+    "north": "gtceu:block/machines/macerator/overlay_front_active",
+    "particle": "gtceu:block/casings/voltage/lv/side",
+    "side": "gtceu:block/casings/voltage/lv/side",
+    "top": "gtceu:block/casings/voltage/lv/top",
+    "up": "gtceu:block/machines/macerator/overlay_top_active"
+  }
+}
